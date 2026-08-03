@@ -1,0 +1,7 @@
+rules:  
+  - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve  
+  - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve  
+  - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve  
+  - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve  
+  - IP-CIDR,224.0.0.0/4,DIRECT,no-resolve  
+  - MATCH,PROXY  
